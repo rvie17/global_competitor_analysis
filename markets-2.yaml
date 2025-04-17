@@ -1,0 +1,469 @@
+derivative:
+- symbol: TRADFIUSDT
+  type: F
+  marketId: '0x2236b4cd97300c79fca5c2fff4b647ab24a6d48c1554255ff8ec7cf29429ba74'
+  uptimeLimit: 1
+  saveContext: false
+  washMode:
+    active: true
+    fillPercentThreshold: 50
+  position:
+    maxEntryValue: 70000
+  order:
+    overlap:
+      active: true
+      threshold: 0.1
+    postOnly: true
+    minSize: 1100
+    maxSize: 1100
+    leverage: 5
+    maxDerive: 10
+  index:
+    exchange: alpaca
+    marketType: derivative
+    symbol: SPY
+    session: stock
+    maxSpread: -1
+    factor: 0
+    maxLag: 60000000
+  refPrice:
+    source: index
+    medianPriceMitigation:
+      active: false
+      type: ''
+      threshold: 0
+    shift:
+      base: 0.03
+      maxShift: 0.03
+    injective:
+      fallback: true
+      maxSpread: 0.1
+      maxShiftFromIndex: 0.3
+  volatility:
+    fastPeriod: 3
+    fastThresholds: 1
+    slowPeriod: 10
+    slowThresholds:
+    - 600
+  offsets:
+  - 0.423
+  - 0.423
+  updateThresholds:
+  - 0.05
+  - 0.05
+- symbol: NVIDIA
+  type: F
+  marketId: '0x1e8369b298705c468c1a313a729bae0dbd4410587465cc69276bf8ba4e0231c1'
+  uptimeLimit: 1
+  saveContext: false
+  washMode:
+    active: false
+    fillPercentThreshold: 25
+  position:
+    maxEntryValue: 15000
+  order:
+    overlap:
+      active: true
+      threshold: 0.025
+    postOnly: true
+    minSize: 1100
+    maxSize: 1100
+    leverage: 5
+    maxDerive: 10
+  index:
+    exchange: alpaca
+    marketType: derivative
+    symbol: NVDA
+    session: stock
+    maxSpread: -1
+    factor: 0
+    maxLag: 60000000
+  refPrice:
+    source: index
+    medianPriceMitigation:
+      active: false
+      type: ''
+      threshold: 0
+    shift:
+      base: 0.1
+      maxShift: 0.015
+    injective:
+      fallback: true
+      maxSpread: 2
+      maxShiftFromIndex: 2
+  volatility:
+    fastPeriod: 3
+    fastThresholds: 1
+    slowPeriod: 10
+    slowThresholds:
+    - 600
+  offsets:
+  - 0.376
+  - 0.376
+  updateThresholds:
+  - 0.05
+  - 0.05
+- symbol: TTIUSDT
+  type: F
+  marketId: '0x37d4e69a77cdca055615d55c088d5bdf1bc75801e2c00a925e0b2dae62b5d660'
+  uptimeLimit: 8
+  saveContext: false
+  washMode:
+    active: false
+    fillPercentThreshold: 50
+  position:
+    maxEntryValue: 15000
+  order:
+    overlap:
+      active: true
+      threshold: 0.025
+    postOnly: true
+    minSize: 1100
+    maxSize: 1100
+    leverage: 5
+    maxDerive: 10
+  index:
+    exchange: alpaca
+    marketType: derivative
+    symbol: QQQ
+    session: stock
+    maxSpread: -1
+    factor: 0
+    maxLag: 60000000
+  refPrice:
+    source: index
+    medianPriceMitigation:
+      active: false
+      type: ''
+      threshold: 0
+    shift:
+      base: 0
+      maxShift: 0.025
+    injective:
+      fallback: true
+      maxSpread: 0.7
+      maxShiftFromIndex: 1
+  volatility:
+    fastPeriod: 3
+    fastThresholds: 1
+    slowPeriod: 10
+    slowThresholds:
+    - 600
+  offsets:
+  - 0.363
+  - 0.363
+  updateThresholds:
+  - 0.05
+  - 0.05
+- symbol: MCDUSDT
+  type: F
+  marketId: '0x056fd86c5b8bde4a4f03552e281db86fc6c110a13a79b98b2011aa84bb0ec340'
+  uptimeLimit: 8
+  saveContext: false
+  washMode:
+    active: false
+    fillPercentThreshold: 50
+  position:
+    maxEntryValue: 17000
+  order:
+    overlap:
+      active: true
+      threshold: 0.025
+    postOnly: true
+    minSize: 1100
+    maxSize: 1100
+    leverage: 5
+    maxDerive: 10
+  index:
+    exchange: alpaca
+    marketType: derivative
+    symbol: MCD
+    session: stock
+    maxSpread: -1
+    factor: 0
+    maxLag: 60000000
+  refPrice:
+    source: index
+    medianPriceMitigation:
+      active: false
+      type: ''
+      threshold: 0
+    shift:
+      base: 0.05
+      maxShift: 0
+    injective:
+      fallback: true
+      maxSpread: 0.04
+      maxShiftFromIndex: 0.2
+  volatility:
+    fastPeriod: 3
+    fastThresholds: 1
+    slowPeriod: 10
+    slowThresholds:
+    - 600
+  offsets:
+  - 0.426
+  - 0.426
+  updateThresholds:
+  - 0.05
+  - 0.05
+- symbol: HOODUSDT
+  type: F
+  marketId: '0xc785a40ccb958e8df31ab18c0788f8443cefc5cbf6aca989ca721214b31fd76e'
+  uptimeLimit: 8
+  saveContext: false
+  washMode:
+    active: false
+    fillPercentThreshold: 50
+  position:
+    maxEntryValue: 15000
+  order:
+    overlap:
+      active: true
+      threshold: 0.025
+    postOnly: true
+    minSize: 1100
+    maxSize: 1100
+    leverage: 5
+    maxDerive: 10
+  index:
+    exchange: alpaca
+    marketType: derivative
+    symbol: HOOD
+    session: stock
+    maxSpread: -1
+    factor: 0
+    maxLag: 60000000
+  refPrice:
+    source: index
+    medianPriceMitigation:
+      active: false
+      type: ''
+      threshold: 0
+    shift:
+      base: 0
+      maxShift: 0.02
+    injective:
+      fallback: true
+      maxSpread: 0.04
+      maxShiftFromIndex: 0.2
+  volatility:
+    fastPeriod: 3
+    fastThresholds: 1
+    slowPeriod: 10
+    slowThresholds:
+    - 600
+  offsets:
+  - 0.498
+  - 0.498
+  updateThresholds:
+  - 0.05
+  - 0.05
+- symbol: TSLAUSDT
+  type: F
+  marketId: '0x36374ac84498d300f99010e2ea693bea12479be910570fc49e986c5f899dccf6'
+  uptimeLimit: 8
+  saveContext: false
+  washMode:
+    active: false
+    fillPercentThreshold: 50
+  position:
+    maxEntryValue: 15000
+  order:
+    overlap:
+      active: true
+      threshold: 0.07
+    postOnly: true
+    minSize: 1100
+    maxSize: 1100
+    leverage: 5
+    maxDerive: 10
+  index:
+    exchange: alpaca
+    marketType: derivative
+    symbol: TSLA
+    session: stock
+    maxSpread: -1
+    factor: 0
+    maxLag: 60000000
+  refPrice:
+    source: index
+    medianPriceMitigation:
+      active: false
+      type: ''
+      threshold: 0
+    shift:
+      base: 0
+      maxShift: 0.01
+    injective:
+      fallback: true
+      maxSpread: 0.04
+      maxShiftFromIndex: 0.2
+  volatility:
+    fastPeriod: 3
+    fastThresholds: 1
+    slowPeriod: 10
+    slowThresholds:
+    - 600
+  offsets:
+  - 0.46
+  - 0.46
+  updateThresholds:
+  - 0.05
+  - 0.05
+- symbol: IMSTRUSDT
+  type: F
+  marketId: '0x9f70beeed6a8ea48b1eab7a608a2af600d432ee6eda7fba2965875a8e9702b77'
+  uptimeLimit: 8
+  saveContext: false
+  washMode:
+    active: false
+    fillPercentThreshold: 50
+  position:
+    maxEntryValue: 15000
+  order:
+    overlap:
+      active: true
+      threshold: 0.025
+    postOnly: true
+    minSize: 1100
+    maxSize: 1100
+    leverage: 5
+    maxDerive: 10
+  index:
+    exchange: alpaca
+    marketType: derivative
+    symbol: MSTR
+    session: stock
+    maxSpread: -1
+    factor: 0
+    maxLag: 60000000
+  refPrice:
+    source: index
+    medianPriceMitigation:
+      active: false
+      type: ''
+      threshold: 0
+    shift:
+      base: 0
+      maxShift: 0.02
+    injective:
+      fallback: true
+      maxSpread: 0.04
+      maxShiftFromIndex: 0.2
+  volatility:
+    fastPeriod: 3
+    fastThresholds: 1
+    slowPeriod: 10
+    slowThresholds:
+    - 600
+  offsets:
+  - 0.409
+  - 0.409
+  updateThresholds:
+  - 0.05
+  - 0.05
+- symbol: COINUSDT
+  type: F
+  marketId: '0x329e14c73ef0712dd1359d56476f3dd9c1c032f9c755556e5bd0cb536fb479d3'
+  uptimeLimit: 8
+  saveContext: false
+  washMode:
+    active: false
+    fillPercentThreshold: 50
+  position:
+    maxEntryValue: 15000
+  order:
+    overlap:
+      active: true
+      threshold: 0.025
+    postOnly: true
+    minSize: 1100
+    maxSize: 1100
+    leverage: 5
+    maxDerive: 10
+  index:
+    exchange: alpaca
+    marketType: derivative
+    symbol: COIN
+    session: stock
+    maxSpread: -1
+    factor: 0
+    maxLag: 60000000
+  refPrice:
+    source: index
+    medianPriceMitigation:
+      active: false
+      type: ''
+      threshold: 0
+    shift:
+      base: 0
+      maxShift: 0.03
+    injective:
+      fallback: true
+      maxSpread: 0.04
+      maxShiftFromIndex: 0.2
+  volatility:
+    fastPeriod: 3
+    fastThresholds: 1
+    slowPeriod: 10
+    slowThresholds:
+    - 600
+  offsets:
+  - 0.618
+  - 0.618
+  updateThresholds:
+  - 0.05
+  - 0.05
+- symbol: GOOGLUSDT
+  type: F
+  marketId: '0x96408895e808e45d95de88784092683963f415985823b8336605e6fc6de97668'
+  uptimeLimit: 8
+  saveContext: false
+  washMode:
+    active: false
+    fillPercentThreshold: 50
+  position:
+    maxEntryValue: 15000
+  order:
+    overlap:
+      active: true
+      threshold: 0.07
+    postOnly: true
+    minSize: 1100
+    maxSize: 1100
+    leverage: 5
+    maxDerive: 10
+  index:
+    exchange: alpaca
+    marketType: derivative
+    symbol: GOOGL
+    session: stock
+    maxSpread: -1
+    factor: 0
+    maxLag: 60000000
+  refPrice:
+    source: index
+    medianPriceMitigation:
+      active: false
+      type: ''
+      threshold: 0
+    shift:
+      base: 0
+      maxShift: 0.01
+    injective:
+      fallback: true
+      maxSpread: 0.04
+      maxShiftFromIndex: 0.2
+  volatility:
+    fastPeriod: 3
+    fastThresholds: 1
+    slowPeriod: 10
+    slowThresholds:
+    - 600
+  offsets:
+  - 0.485
+  - 0.485
+  updateThresholds:
+  - 0.05
+  - 0.05
